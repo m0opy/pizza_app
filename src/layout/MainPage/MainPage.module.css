@@ -1,0 +1,9 @@
+.container {
+    max-width: 1055px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.right-content {
+    margin-left: 241px;
+}

@@ -1,0 +1,37 @@
+.button {
+    font-size: 16px;
+    color: var(--white-color);
+    border-radius: 28.5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.25s;
+    font-family: inherit;
+}
+
+.accent {
+    background: var(--primary-color);
+}
+
+.accent:hover {
+    background: var(--primary-hover-color);
+}
+
+.big {
+    text-transform: uppercase;
+    padding: 19px 0 16px;
+    width: 248px;
+    height: 60px;
+    box-shadow: 0px 10px 40px 0px #7A81BE29;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.small {
+    width: 141px;
+    height: 44px;
+    padding: 10px 0 11px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}

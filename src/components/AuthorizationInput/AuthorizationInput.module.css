@@ -1,0 +1,27 @@
+.label {
+    font-size: 17px;
+    color: var(--text-tertiary-color);
+    line-height: auto;
+    font-weight: 400;
+}
+
+.input {
+    display: block;
+    width: 324px;
+    height: 65px;
+    border: solid 1px #EEEEEE;
+    border-radius: 10px;
+    padding: 0px 20px;
+    font-size: 17px;
+    font-family: var(--font);
+    color: var(--text-color);
+    margin: 5px 0 29px;
+    box-shadow: 15px 20px 45px 0px #E9E9E940;
+    outline: none;
+}
+
+.input::placeholder {
+    color: var(--text-placeholder-color);
+    font-size: 17px;
+    font-family: var(--font);
+}

@@ -1,0 +1,27 @@
+:root {
+  --font: "Open Sans", sans-serif;
+  --primary-color: #FE724C;
+  --primary-hover-color: #d75633;
+  --text-color: #000000;
+  --text-secondary-color: #5B5B5E;
+  --text-tertiary-color: #9796A1;
+  --text-placeholder-color: #C4C4C4;
+  --white-color: #FFFFFF;
+  --seporator-color: #D4D6E0;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: var(--white-color);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
