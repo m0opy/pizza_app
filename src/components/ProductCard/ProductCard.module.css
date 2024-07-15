@@ -23,7 +23,7 @@
     font-size: 20px;
     line-height: 27.24px;
     font-weight: 400;
-    color: #111719;
+    color: var(--text-quinary-color);
     display: flex;
     align-items: center;
     justify-content: center;
