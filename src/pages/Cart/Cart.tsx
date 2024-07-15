@@ -4,6 +4,7 @@ export function Cart() {
     return (
         <>
             <Title>Корзина</Title>
+            <div>test</div>
         </>
     );
 }

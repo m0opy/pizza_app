@@ -1,6 +1,7 @@
 import styles from './LeftPanel.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Button from '../../components/Button/Button';
+import cn from 'classnames';
 
 function LeftPanel() {
     return (
@@ -15,15 +16,29 @@ function LeftPanel() {
                 <div className={styles['user-email']}>alaricode@ya.ru</div>
             </div>
             <nav className={styles['navigation']}>
-                <Link to="/menu" className={styles['link']}>
+                <NavLink
+                    to="/menu"
+                    className={({ isActive }) =>
+                        cn(styles['link'], {
+                            [styles['active']]: isActive,
+                        })
+                    }
+                >
                     <img src="/menu-icon.svg" alt="Иконка меню" />
                     Меню
-                </Link>
+                </NavLink>
 
-                <Link to="/cart" className={styles.link}>
+                <NavLink
+                    to="/cart"
+                    className={({ isActive }) =>
+                        cn(styles['link'], {
+                            [styles['active']]: isActive,
+                        })
+                    }
+                >
                     <img src="/cart-icon.svg" alt="Иконка" />
                     Корзина
-                </Link>
+                </NavLink>
             </nav>
             <Button className={styles['exit']}>
                 <img src="/exit-icon.svg" alt="Иконка выхода" />

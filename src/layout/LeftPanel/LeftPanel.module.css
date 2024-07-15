@@ -10,7 +10,7 @@
     height: 90px;
     width: 90px;
     border-radius: 45px;
-    box-shadow: 0px 8px 40px 0px #FFC52940;
+    box-shadow: 0px 8px 40px 0px var(--shadow-tertiary-color);
     margin: 30px auto 21px 30px;
 }
 
@@ -21,15 +21,15 @@
 
 .user-name {
     font-size: 20px;
-    line-height: 27.24px;    
+    line-height: 27.24px;
     font-weight: 700;
     margin: 0;
-    color: var(--text-color)
+    color: var(--text-color);
 }
 
 .user-email {
     font-size: 14px;
-    color: #9EA1B1;
+    color: var(--text-quaternary-color);
     margin: 0;
     font-weight: 400;
     line-height: 19.07px;
@@ -70,7 +70,7 @@
     gap: 16px;
 }
 
-.link:hover {
+.active {
     color: var(--primary-color);
 }
 
@@ -78,7 +78,7 @@
     top: 682px;
     position: absolute;
     margin-left: 28px;
-    box-shadow: 0px 10px 30px 0px #FE724C33;
+    box-shadow: 0px 10px 30px 0px var(--shadow-secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
