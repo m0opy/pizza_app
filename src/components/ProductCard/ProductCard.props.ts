@@ -1,4 +1,7 @@
-export interface ProductCardProps {
+import { HTMLAttributes } from 'react';
+
+export interface ProductCardProps
+    extends Omit<HTMLAttributes<HTMLElement>, 'id'> {
     id: number;
     image: string;
     price: number;

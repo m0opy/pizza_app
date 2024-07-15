@@ -1,5 +1,3 @@
 import { HTMLAttributes } from 'react';
 
-export interface TitleProps extends HTMLAttributes<HTMLHeadingElement> {
-    children: string;
-}
+export interface TitleProps extends HTMLAttributes<HTMLHeadingElement> {}
